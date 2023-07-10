@@ -18,9 +18,9 @@ public class FindElements {
 		
 		driver.manage().window().maximize();
 		
-		driver.get("https://demo.automationtesting.in/FileDownload.html");
+		driver.get("https://www.flipkart.com/");
 		
-		driver.findElement(By.xpath("//a[normalize-space(text())='Alerts']")).click();
+		driver.findElement(By.xpath("//a[@class='_2KpZ6l _3dESVI']/ancestor::div[@class='_6t1WkM _3HqJxg']")).click();
 		
 	}
 

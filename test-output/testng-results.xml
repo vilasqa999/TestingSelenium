@@ -1,51 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-17T19:25:12 IST" name="Failed suite [Default suite]" finished-at="2023-06-17T19:25:23 IST" duration-ms="11413">
+  <suite started-at="2023-07-02T17:24:32 IST" name="Default suite" finished-at="2023-07-02T17:24:33 IST" duration-ms="136">
     <groups>
     </groups>
-    <test started-at="2023-06-17T19:25:12 IST" name="Default test(failed)" finished-at="2023-06-17T19:25:23 IST" duration-ms="11413">
-      <class name="TestNGPrograms.Assertions">
-        <test-method signature="testElement()[pri:0, instance:TestNGPrograms.Assertions@31304f14]" started-at="2023-06-17T19:25:12 IST" name="testElement" finished-at="2023-06-17T19:25:23 IST" duration-ms="11365" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+    <test started-at="2023-07-02T17:24:32 IST" name="Default test" finished-at="2023-07-02T17:24:33 IST" duration-ms="136">
+      <class name="TestNGPrograms.testng1">
+        <test-method is-config="true" signature="beforeclassmethod()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="beforeclassmethod" finished-at="2023-07-02T17:24:32 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassmethod -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="Assstcase3()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="Assstcase3" finished-at="2023-07-02T17:24:32 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assstcase3 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="Assstcase3()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="Assstcase3" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assstcase3 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="Assstcase3()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="Assstcase3" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assstcase3 -->
+        <test-method signature="Assstcase3()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="Assstcase3" finished-at="2023-07-02T17:24:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assstcase3 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="Assstcase3()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="Assstcase3" finished-at="2023-07-02T17:24:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assstcase3 -->
+        <test-method signature="fail()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="fail" finished-at="2023-07-02T17:24:32 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=114.0.5735.134)
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7776c8cb4354b18fcf7b757f498fa93, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vilas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64987/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7776c8cb4354b18fcf7b757f498fa93]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=114.0.5735.134)
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7776c8cb4354b18fcf7b757f498fa93, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vilas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64987/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7776c8cb4354b18fcf7b757f498fa93
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
-at TestNGPrograms.Assertions.testElement(Assertions.java:58)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at TestNGPrograms.testng1.fail(testng1.java:79)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,11 +93,39 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testElement -->
-      </class> <!-- TestNGPrograms.Assertions -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+        </test-method> <!-- fail -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:32 IST" name="testcase1" finished-at="2023-07-02T17:24:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="testcase1" finished-at="2023-07-02T17:24:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="showdetails()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="showdetails" finished-at="2023-07-02T17:24:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetails -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="testcase1" finished-at="2023-07-02T17:24:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="suceess()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="suceess" finished-at="2023-07-02T17:24:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suceess -->
+        <test-method signature="testcase2()[pri:1, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="testcase2" finished-at="2023-07-02T17:24:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="testcase1()[pri:0, instance:TestNGPrograms.testng1@62379589]" started-at="2023-07-02T17:24:33 IST" name="testcase1" finished-at="2023-07-02T17:24:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- TestNGPrograms.testng1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
